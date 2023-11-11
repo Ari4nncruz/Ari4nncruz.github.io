@@ -25,3 +25,6 @@ typewriter2
   .pauseFor(200)
   .deleteChars(5)
   .start();
+
+  const imagenes= document.getElementsByClassName('efecto');
+  new simpleParallax(imagenes, {scale:2})
